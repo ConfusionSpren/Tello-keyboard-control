@@ -65,5 +65,5 @@ while x == True:
         tello.send_rc_control(-x_accel, 0, 0, 0)
     if not keyboard.is_pressed('k') and not keyboard.is_pressed('i'):
         tello.send_rc_control(0, 0, -y_accel, 0)
-    else:
-        pass
+    else:        pass
+exit()
