@@ -58,7 +58,7 @@ while x == True:
         x = False 
         tello.streamoff()
        
-    # Stablization for drone 
+    # Stablization for drone, untested
     if not keyboard.is_pressed('w') and not keyboard.is_pressed('s'):
         tello.send_rc_control(0, -z_accel, 0, 0)
     if not keyboard.is_pressed('d') and not keyboard.is_pressed('a'):
