@@ -5,3 +5,4 @@ WASD for X-Z axis movement.
 QE for yaw.
 IK for Y-axis.
 
+Currently non-funtional
