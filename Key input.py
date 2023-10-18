@@ -20,7 +20,6 @@ try:
 
         # if a key is pressed
         if event.event_type == 'down':
-            # Instead of setting all flags to False, set only the ones you're changing.
             w = s = d = a = e = q = i = k = False
 
             if event.name == 'esc':
