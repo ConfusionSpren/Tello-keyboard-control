@@ -5,4 +5,4 @@ WASD for X-Z axis movement.
 QE for yaw.
 IK for Y-axis.
 
-Works now! Needs exception handling and comments.
+Works now! Needs comments.
